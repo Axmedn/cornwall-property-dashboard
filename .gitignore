@@ -1,0 +1,17 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.rds
+rsconnect/
+# outputs written by analysis/model_exploration.R
+diagnostics*.png
+random_effects.png
+spline_effect.png
+timeline_2011_2026.png
+example_*.png
+model_comparison.csv
+predictions_2020_2026.csv
+model_predictions.csv
+rmse_comparison.csv
+coefficients.csv
