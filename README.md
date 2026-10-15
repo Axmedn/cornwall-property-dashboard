@@ -7,6 +7,7 @@ An interactive R Shiny dashboard for exploring and estimating Cornwall house pri
 Individual course project, University of Glasgow (2025).
 
 ![Estimate Property Value tab](figures/app_value_tab.png)
+
 ## What the app does
 
 | Tab | Purpose |
