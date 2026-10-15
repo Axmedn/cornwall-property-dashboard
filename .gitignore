@@ -15,3 +15,4 @@ predictions_2020_2026.csv
 model_predictions.csv
 rmse_comparison.csv
 coefficients.csv
+*.html

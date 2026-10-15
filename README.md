@@ -3,6 +3,7 @@
 An interactive R Shiny dashboard for exploring and estimating Cornwall house prices, built on 62,711 property sales from 2011 to 2019. It is designed for people without a statistics background: every estimate comes with a confidence interval, and the app warns when a sample is small or when an input falls outside the range of the data the model was fitted on.
 
 Individual course project, University of Glasgow (2025).
+![Estimate Property Value tab](figures/app_value_tab.png)
 
 ## What the app does
 
