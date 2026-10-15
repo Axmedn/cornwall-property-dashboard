@@ -292,11 +292,13 @@ ex_town <- levels(data_model$towncity)[1]
 cat("Example 1: 100m² Semi-Detached, Old, Energy=60, 2019\n")
 result <- predict_value(100, 60, "Semi-Detached", "Old", ex_town, 2019)
 cat(sprintf("  Value: £%s", format(round(result$estimate), big.mark=",")))
-if(!is.na(result$lower))
+if (!is.na(result$lower)) {
   cat(sprintf(" (95%% CI: £%s-£%s)\n\n",
-              format(round(result$lower), big.mark=","),
-              format(round(result$upper), big.mark=",")))
-else cat(" (CI n/a for LMM)\n\n")
+              format(round(result$lower), big.mark = ","),
+              format(round(result$upper), big.mark = ",")))
+} else {
+  cat(" (CI n/a for LMM)\n\n")
+}
 
 # Example 2: Trend
 cat("Example 2: Trend 2015-2022\n")
